@@ -1,0 +1,62 @@
+# 🖼️ Image Processing Web App
+
+Project ini adalah aplikasi web sederhana berbasis Python yang digunakan untuk melakukan pengolahan citra (image processing). Aplikasi ini memungkinkan user untuk meng-upload gambar, lalu sistem akan memproses gambar tersebut dan menampilkan beberapa hasil analisis secara langsung.
+
+## 🚀 Fitur Utama
+
+* Upload gambar melalui web
+* Menampilkan gambar asli
+* Konversi gambar ke grayscale
+* Perhitungan rata-rata warna RGB
+* Perhitungan rata-rata grayscale
+* Pembagian gambar menjadi grid 10x10
+* Menampilkan nilai rata-rata tiap grid langsung di gambar
+
+## ⚙️ Teknologi yang Digunakan
+
+* Python
+* Flask
+* OpenCV
+* NumPy
+* HTML (Template)
+
+## 🧠 Cara Kerja Singkat
+
+Setelah user meng-upload gambar, file akan disimpan ke dalam folder `static`. Kemudian gambar akan diproses menggunakan OpenCV:
+
+* Menghitung rata-rata RGB dari gambar asli
+* Mengubah gambar menjadi grayscale
+* Membagi gambar menjadi beberapa bagian (grid)
+* Menghitung nilai rata-rata setiap bagian
+* Menampilkan hasilnya dalam bentuk visual
+
+Semua hasil tersebut kemudian ditampilkan kembali ke user melalui halaman web.
+
+## ▶️ Cara Menjalankan Project
+
+1. Clone repository ini
+2. Masuk ke folder project
+3. Aktifkan virtual environment (opsional)
+4. Install dependencies:
+
+   ```
+   pip install flask opencv-python numpy
+   ```
+5. Jalankan program:
+
+   ```
+   python app.py
+   ```
+6. Buka browser di:
+
+   ```
+   http://127.0.0.1:5000
+   ```
+
+## 📌 Catatan
+
+Project ini dibuat dengan bantuan AI sebagai bagian dari proses belajar dan eksplorasi dalam bidang computer vision dan pengembangan web sederhana menggunakan Flask.
+
+## 👨‍💻 Author
+
+Dibuat oleh mahasiswa yang sedang ngerjain tugas - Sulthan Rafi Azis
